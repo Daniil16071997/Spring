@@ -11,7 +11,6 @@ public class Robot {
       this.robotHand=robotHand;
       this.robotLeg=robotLeg;
       this.robotHead=robotHead;
-
   }
 public  void action(){
       robotHead.thinks();
