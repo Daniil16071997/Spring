@@ -3,19 +3,19 @@ import Interfice.RobotHand;
 import Interfice.RobotHead;
 import Interfice.RobotLeg;
 public class Robot {
-  private  RobotHand robotHand;
-  private  RobotHead robotHead;
-  private  RobotLeg robotLeg;
-  public Robot( RobotHand robotHand, RobotHead robotHead, RobotLeg robotLeg){
+  private  Hand hand;
+  private  Head head;
+  private  Leg leg;
+  public Robot(Hand hand,Head head, Leg leg){
       super();
-      this.robotHand=robotHand;
-      this.robotLeg=robotLeg;
-      this.robotHead=robotHead;
+      this.hand=hand;
+      this.leg=leg;
+      this.head=head;
   }
 public  void action(){
-      robotHead.thinks();
-      robotLeg.run();
-      robotHand.catchSomething();
+      head.thinks();
+      leg.run();
+      hand.catchSomething();
 }
 
 }

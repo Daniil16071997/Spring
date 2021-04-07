@@ -1,5 +1,5 @@
 package Interfice;
 
-public interface RobotLeg {
+public interface Leg {
     public  void run();
 }

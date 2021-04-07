@@ -1,5 +1,5 @@
 package Interfice;
 
-public interface RobotHead {
+public interface Head {
     public  void thinks();
 }

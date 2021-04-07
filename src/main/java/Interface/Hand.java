@@ -1,6 +1,6 @@
 package Interfice;
 
-public interface RobotHand {
+public interface Hand {
  public  void catchSomething();
 
 
