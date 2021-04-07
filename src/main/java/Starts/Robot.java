@@ -1,7 +1,7 @@
 package Starts;
-import Interfice.RobotHand;
-import Interfice.RobotHead;
-import Interfice.RobotLeg;
+import Interface.Hand;
+import Interface.Head;
+import Interface.Leg;
 public class Robot {
   private  Hand hand;
   private  Head head;

@@ -1,7 +1,7 @@
 package ManyParts.Sony;
-import Interfice.RobotHand;
+import Interface.Hand;
 
-public class HandSony implements RobotHand {
+public class HandSony implements Hand {
     @Override
     public void catchSomething() {
         System.out.println("Sony robot get pringls))");

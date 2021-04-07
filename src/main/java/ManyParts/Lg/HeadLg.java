@@ -1,8 +1,8 @@
 package ManyParts.Lg;
 
-import Interfice.RobotHead;
+import Interface.Head;
 
-public class HeadLg implements RobotHead {
+public class HeadLg implements Head {
     @Override
     public void thinks() {
         System.out.println("Lg robot thinks");

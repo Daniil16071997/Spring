@@ -1,5 +1,5 @@
-package Interfice;
+package Interface;
 
 public interface Leg {
-    public  void run();
+    void run();
 }

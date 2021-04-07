@@ -1,8 +1,8 @@
 package ManyParts.Lg;
 
-import Interfice.RobotLeg;
+import Interface.Leg;
 
-public class LegLg implements RobotLeg {
+public class LegLg implements Leg {
     @Override
     public void run() {
         System.out.println("Lg robot run!");

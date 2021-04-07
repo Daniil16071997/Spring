@@ -11,6 +11,5 @@ public class RobotStart {
         LegSony legSony = new LegSony();
         Robot robot= new Robot(handLg, headSony, legSony);
         robot.action();
-
     }
 }

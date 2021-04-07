@@ -1,7 +1,7 @@
-package Interfice;
+package Interface;
 
 public interface Hand {
- public  void catchSomething();
+ void catchSomething();
 
 
 }

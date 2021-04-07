@@ -1,5 +1,5 @@
-package Interfice;
+package Interface;
 
 public interface Head {
-    public  void thinks();
+      void thinks();
 }

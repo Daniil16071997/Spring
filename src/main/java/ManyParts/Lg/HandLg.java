@@ -1,8 +1,8 @@
 package ManyParts.Lg;
 
-import Interfice.RobotHand;
+import Interface.Hand;
 
-public class HandLg implements RobotHand {
+public class HandLg implements Hand {
     @Override
     public void catchSomething() {
         System.out.println("Lg robot getter");

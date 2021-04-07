@@ -1,8 +1,8 @@
 package ManyParts.Sony;
 
-import Interfice.RobotHead;
+import Interface.Head;
 
-public class HeadSony implements RobotHead {
+public class HeadSony implements Head {
     @Override
     public void thinks() {
         System.out.println("Sony robot thinks |WTF&|");
