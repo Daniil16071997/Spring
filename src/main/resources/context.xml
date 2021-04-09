@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Robot" class="com.example.spring3.RobotBuildSpring.RobotBuild.Starts.Robot">
+        <constructor-arg ref="HandLg"/>
+        <constructor-arg ref="HeadSony"/>
+        <constructor-arg ref="LegLg"/>
+
+    </bean>
+    <bean id="HandSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HandSony">
+    </bean>
+    <bean id="HeadSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HeadSony">
+    </bean>
+    <bean id="LegSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.LegSony">
+    </bean>
+    <bean id="HandLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HandLg">
+    </bean>
+    <bean id="HeadLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HeadLg">
+    </bean>
+    <bean id="LegLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.LegLg">
+    </bean>
+</beans>
