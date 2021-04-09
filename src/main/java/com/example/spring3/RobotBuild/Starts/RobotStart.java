@@ -1,8 +1,8 @@
-package RobotBuild.Starts;
+package com.example.spring3.RobotBuild.Starts;
 
-import RobotBuild.ManyParts.Lg.HandLg;
-import RobotBuild.ManyParts.Sony.HeadSony;
-import RobotBuild.ManyParts.Sony.LegSony;
+import com.example.spring3.RobotBuild.ManyParts.Lg.HandLg;
+import com.example.spring3.RobotBuild.ManyParts.Sony.HeadSony;
+import com.example.spring3.RobotBuild.ManyParts.Sony.LegSony;
 
 public class RobotStart {
     public static void main(String[] args) {

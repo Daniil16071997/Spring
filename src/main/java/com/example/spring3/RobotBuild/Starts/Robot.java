@@ -1,7 +1,7 @@
-package RobotBuild.Starts;
-import RobotBuild.Interface.Hand;
-import RobotBuild.Interface.Head;
-import RobotBuild.Interface.Leg;
+package com.example.spring3.RobotBuild.Starts;
+import com.example.spring3.RobotBuild.Interface.Hand;
+import com.example.spring3.RobotBuild.Interface.Head;
+import com.example.spring3.RobotBuild.Interface.Leg;
 public class Robot {
   private final Hand hand;
   private final Head head;

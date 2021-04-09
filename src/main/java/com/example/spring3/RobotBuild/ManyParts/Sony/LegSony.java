@@ -1,6 +1,6 @@
-package RobotBuild.ManyParts.Sony;
+package com.example.spring3.RobotBuild.ManyParts.Sony;
 
-import RobotBuild.Interface.Leg;
+import com.example.spring3.RobotBuild.Interface.Leg;
 
 public class LegSony implements Leg {
     @Override

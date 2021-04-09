@@ -1,6 +1,6 @@
-package RobotBuild.ManyParts.Lg;
+package com.example.spring3.RobotBuild.ManyParts.Lg;
 
-import RobotBuild.Interface.Leg;
+import com.example.spring3.RobotBuild.Interface.Leg;
 
 public class LegLg implements Leg {
     @Override

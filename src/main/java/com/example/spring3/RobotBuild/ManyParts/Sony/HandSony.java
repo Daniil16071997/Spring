@@ -1,5 +1,5 @@
-package RobotBuild.ManyParts.Sony;
-import RobotBuild.Interface.Hand;
+package com.example.spring3.RobotBuild.ManyParts.Sony;
+import com.example.spring3.RobotBuild.Interface.Hand;
 
 public class HandSony implements Hand {
     @Override

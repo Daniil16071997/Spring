@@ -1,6 +1,6 @@
-package RobotBuild.ManyParts.Sony;
+package com.example.spring3.RobotBuild.ManyParts.Sony;
 
-import RobotBuild.Interface.Head;
+import com.example.spring3.RobotBuild.Interface.Head;
 
 public class HeadSony implements Head {
     @Override

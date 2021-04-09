@@ -1,6 +1,6 @@
-package RobotBuild.ManyParts.Lg;
+package com.example.spring3.RobotBuild.ManyParts.Lg;
 
-import RobotBuild.Interface.Head;
+import com.example.spring3.RobotBuild.Interface.Head;
 
 public class HeadLg implements Head {
     @Override
