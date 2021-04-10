@@ -5,9 +5,9 @@
     <!--default-init-method="init"
     default-destroy-method="destroy"-->
     <bean id="bumblebee" class="com.example.spring3.RobotBuildSpring.RobotBuild.Robot.Bumblebee"
-          p:hand-ref="HandLg"
-          p:leg-ref="LegLg"
-          p:head-ref="HeadLg"
+          p:hand-ref="handLg"
+          p:leg-ref="legLg"
+          p:head-ref="headLg"
           init-method="init"
           destroy-method="destroy"
     scope="prototype">
@@ -20,12 +20,12 @@
         <!--          <property name="head" ref="HeadLg"/>-->
 
     </bean>
-    <bean id="HandSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HandSony"/>
-    <bean id="HeadSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HeadSony"/>
-    <bean id="LegSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.LegSony"/>
+    <bean id="handSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HandSony"/>
+    <bean id="headSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HeadSony"/>
+    <bean id="legSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.LegSony"/>
 
-    <bean id="HandLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HandLg"/>
-    <bean id="HeadLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HeadLg"/>
-    <bean id="LegLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.LegLg"/>
+    <bean id="handLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HandLg"/>
+    <bean id="headLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HeadLg"/>
+    <bean id="legLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.LegLg"/>
 
 </beans>
