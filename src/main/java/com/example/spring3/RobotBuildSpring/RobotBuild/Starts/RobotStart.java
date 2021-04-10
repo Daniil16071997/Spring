@@ -2,7 +2,6 @@ package com.example.spring3.RobotBuildSpring.RobotBuild.Starts;
 
 
 import com.example.spring3.RobotBuildSpring.RobotBuild.Robot.Bumblebee;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class RobotStart {
     public static void main(String[] args) {

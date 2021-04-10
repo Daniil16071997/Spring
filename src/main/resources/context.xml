@@ -3,24 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="bumblebee" class="com.example.spring3.RobotBuildSpring.RobotBuild.Robot.Bumblebee">
-         <constructor-arg ref="HandSony"/>
-         <constructor-arg ref="HeadSony"/>
-         <constructor-arg ref="LegSony"/>
+        <constructor-arg value="orange" type="java.lang.String" index="0"/>
+        <constructor-arg value="2021" type="int" index="1"/>
+        <constructor-arg value="true" type="boolean" index="2"/>
+
         <property name="hand" ref="HandLg"/>
-        <property name="head" ref="HeadLg"/>
         <property name="leg" ref="LegLg"/>
+        <property name="head" ref="HeadLg"/>
 
     </bean>
-    <bean id="HandSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HandSony">
-    </bean>
-    <bean id="HeadSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HeadSony">
-    </bean>
-    <bean id="LegSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.LegSony">
-    </bean>
-    <bean id="HandLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HandLg">
-    </bean>
-    <bean id="HeadLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HeadLg">
-    </bean>
-    <bean id="LegLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.LegLg">
-    </bean>
+    <bean id="HandSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HandSony"/>
+    <bean id="HeadSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.HeadSony"/>
+    <bean id="LegSony" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Sony.LegSony"/>
+
+    <bean id="HandLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HandLg"/>
+    <bean id="HeadLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.HeadLg"/>
+    <bean id="LegLg" class="com.example.spring3.RobotBuildSpring.RobotBuild.ManyParts.Lg.LegLg"/>
+
 </beans>
