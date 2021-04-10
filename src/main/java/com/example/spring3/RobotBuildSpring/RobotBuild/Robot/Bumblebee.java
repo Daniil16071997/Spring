@@ -50,6 +50,12 @@ public class Bumblebee {
         System.out.println("year: " + year);
         System.out.println("can play sound: " + soundEnabled);
     }
+    public void init(){
+        System.out.println("init");
+    }
+    public void destroy(){
+        System.out.println("destroy");
+    }
 
 
 }
