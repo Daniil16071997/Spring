@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class Bumblebee {
+public class Bumblebee extends BaseModel {
     private Hand hand;
     private Head head;
     private Leg leg;
@@ -50,10 +50,12 @@ public class Bumblebee {
         System.out.println("year: " + year);
         System.out.println("can play sound: " + soundEnabled);
     }
-    public void init(){
+
+    public void init() {
         System.out.println("init");
     }
-    public void destroy(){
+
+    public void destroy() {
         System.out.println("destroy");
     }
 
