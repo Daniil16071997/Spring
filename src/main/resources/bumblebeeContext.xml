@@ -7,15 +7,15 @@
     <import resource="implsLgContext.xml"/>
     <bean id="bumblebee" class="com.example.spring3.RobotBuildSpring.RobotBuild.Robot.Bumblebee" scope="prototype"
           parent="baseModel">
-        <constructor-arg value="orange" type="java.lang.String" index="0"/>
-        <constructor-arg value="2021" type="int" index="1"/>
-        <constructor-arg value="true" type="boolean" index="2"/>
+        <constructor-arg value="orange" type="java.lang.String" index="3"/>
+        <constructor-arg value="2021" type="int" index="4"/>
+        <constructor-arg value="true" type="boolean" index="5"/>
     </bean>
     <bean id="baseModel" abstract="true">
 
-        <constructor-arg ref="legSony" index="2"/>
-        <constructor-arg ref="handSony" index="0"/>
-        <constructor-arg ref="headSony" index="1"/>
+        <constructor-arg ref="legSony" />
+        <constructor-arg ref="handSony" />
+        <constructor-arg ref="headSony" />
 
     </bean>
 

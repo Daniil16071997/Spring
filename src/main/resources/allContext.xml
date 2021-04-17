@@ -7,4 +7,16 @@
     <bean id="bumblebeeConveyor" class="com.example.spring3.RobotBuildSpring.RobotBuild.Robot.BumblebeeConveyor">
         <lookup-method name="createRobot" bean="bumblebee"/>
     </bean>
+    <bean class="com.example.spring3.RobotBuildSpring.RobotBuild.Pool.BumblebeePool" id="bumblebeePool">
+        <property name="robotCollection">
+            <list>
+               <ref bean="bumblebee"/>
+                <bean class="com.example.spring3.RobotBuildSpring.RobotBuild.Robot.Bumblebee" parent="baseModel">
+                    <constructor-arg type="java.lang.String" index="3" value="gold"/>
+                    <constructor-arg type="int" index="4" value="2007"/>
+                    <constructor-arg type="boolean" index="5" value="false"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
 </beans>
